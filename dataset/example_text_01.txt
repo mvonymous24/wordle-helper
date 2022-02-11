@@ -2,4 +2,4 @@ This is an example.
 
 This should be something in English. If you turn on dictionary_override, the program will firstly extract all the 5-letter words in all the files in this folder (dataset) and create a new analysis.json file.
 
-Tip: you can view the wordle source code and put the wordle official dictionary in this folder. This way the program will have the same dictionary as wordle.
+Tip: you can view the wordle source code and put the wordle official dictionary in this folder then turn on dictionary_override. This way the program will have the same dictionary as wordle.
