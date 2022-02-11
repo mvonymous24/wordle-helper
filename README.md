@@ -1,5 +1,13 @@
 # Wordle Helper
-This project is a tool to help you solve wordle. Based on the analysis of the usage of thousands of 5-letter words and the colors you input, the program can show you the most possible answers.
+**In short, This project is a tool to help you solve wordle.**
+
+Based on:
+
+- 1. the analysis of the usage of thousands of 5-letter words (about 9000), 
+- 2. the possibility each letter appearing on different positions, 
+- 3. the colors you input, 
+
+the program can show you the most possible answers (possibility from high to low).
 
 ## How to use wordle helper?
 
