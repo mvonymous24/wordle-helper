@@ -346,6 +346,14 @@ def getInput(tip, type):
 
 
 def topN(sorted_list, n=5):
+    if os.path.isfile('tip_word_num_override.txt'):
+        with open('tip_word_num_override.txt', 'r') as tip_word_num_file:
+            tip_word_num = tip_word_num_file.read()
+            if int(tip_word_num) > n:
+                n = int(tip_word_num)
+            else:
+                print('[Warning] There may be not enough word to choose when the dictionary has too many invalid words.'
+                      ' You should at least let the program show you ', n, ' words.')
     if len(sorted_list) > n:
         listN = sorted_list[:n]
     else:
