@@ -26,6 +26,9 @@ e.g. if the content of `color_code_override.txt` is 'abc', then you can input '*
 ### dictionary
 Find enough texts (e.g. novels, news reports, anything in multiple `.txt` files) and put them into the `dataset` folder. Create a new file named `dataset_override` and run the code.
 
+### tip word number
+Create a file named `tip_word_num_override.txt` with the content of a number bigger than 5.
+
 ## Known Flaws
 ### Not adequately tested
 This project is rough and just created for fun and practicing the usage of python language & github using. It doesn't have a pretty UI, and is not tested adequately. So literally any bug is possible. Feel free to use the code anywhere (although not recommended).
