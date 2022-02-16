@@ -346,6 +346,10 @@ def getInput(tip, type):
 
 
 def topN(sorted_list, n=5):
+    probsum = 0
+    for listNumSum in sorted_list:
+        print(listNumSum)
+        probsum += int(listNumSum[1])
     if os.path.isfile('tip_word_num_override.txt'):
         with open('tip_word_num_override.txt', 'r') as tip_word_num_file:
             tip_word_num = tip_word_num_file.read()
@@ -362,7 +366,12 @@ def topN(sorted_list, n=5):
     listNum = 0
     for listWord in listN:
         listNum += 1
-        text = text + str(listNum) + '. ' + listWord[0] + '\n'
+        probability = str(round(listWord[1] / probsum * 100, 2))
+        if probability == '0.00':
+            probability = '< 0.01 %'
+        else:
+            probability = probability + '%'
+        text = text + str(listNum) + '. ' + listWord[0] + '  ' + probability + '\n'
 
     return listN, text
 
