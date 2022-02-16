@@ -5,7 +5,7 @@ import sys
 import json
 
 
-weight = (7, 3)  # 字母频率与词汇频率占权重比值
+weight = (4, 6)  # 字母频率与词汇频率占权重比值
 
 
 def analysis_merge(a, b):
