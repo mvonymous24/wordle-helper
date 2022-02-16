@@ -14,6 +14,13 @@ the program can show you the most possible answers (possibility from high to low
 
 ## How to use wordle helper?
 
+### download prebuilt version
+
+- go to `release` page, download the `.exe` file
+- run this file.
+
+### or you can download sourcecode
+
 - install python (3.9), download and run the code
 - input one of the predicted words into [Wordle](https://www.powerlanguage.co.uk/wordle/)
 - tell the program number of the word you have just input.
