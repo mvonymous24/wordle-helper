@@ -9,6 +9,9 @@ Based on:
 
 the program can show you the most possible answers (possibility from high to low).
 
+![image](https://user-images.githubusercontent.com/32959489/154190189-1dda400f-3fa7-4206-a8b0-c0883e7e746b.png)
+
+
 ## How to use wordle helper?
 
 - install python (3.9), download and run the code
