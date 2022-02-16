@@ -16,8 +16,11 @@ the program can show you the most possible answers (possibility from high to low
 
 ### download prebuilt version
 
-- go to `release` page, download the `.exe` file
-- run this file.
+- go to `release` page, download the `.exe` file and double click it
+- input one of the predicted words into [Wordle](https://www.powerlanguage.co.uk/wordle/)
+- tell the program number of the word you have just input.
+- tell the program colors of the word cards on Wordle. (By default, 1 means gray, 2 means yellow, 3 means green. If there's no customization, your input should be something like '**22132**')
+- go back to step 2.
 
 ### or you can download sourcecode
 
