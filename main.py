@@ -348,7 +348,6 @@ def getInput(tip, type):
 def topN(sorted_list, n=5):
     probsum = 0
     for listNumSum in sorted_list:
-        print(listNumSum)
         probsum += int(listNumSum[1])
     if os.path.isfile('tip_word_num_override.txt'):
         with open('tip_word_num_override.txt', 'r') as tip_word_num_file:
