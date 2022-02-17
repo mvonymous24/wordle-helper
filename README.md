@@ -22,7 +22,7 @@ the program can show you the most possible answers (possibility from high to low
 - tell the program colors of the word cards on Wordle. (By default, 1 means gray, 2 means yellow, 3 means green. If there's no customization, your input should be something like '**22132**')
 - go back to step 2.
 
-### or you can download sourcecode
+### or you can download sourcecode (recommended)
 
 - install python (3.9), download and run the code
 - input one of the predicted words into [Wordle](https://www.powerlanguage.co.uk/wordle/)
