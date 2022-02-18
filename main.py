@@ -5,7 +5,7 @@ import sys
 import json
 
 
-weight = (4, 6)  # 字母频率与词汇频率占权重比值
+weight = (3, 7)  # 字母频率与词汇频率占权重比值
 
 
 def analysis_merge(a, b):
@@ -345,7 +345,7 @@ def getInput(tip, type):
                 return getInput(tip, type)
 
 
-def topN(sorted_list, n=5):
+def topN(sorted_list, n=7):
     probsum = 0
     for listNumSum in sorted_list:
         probsum += int(listNumSum[1])
